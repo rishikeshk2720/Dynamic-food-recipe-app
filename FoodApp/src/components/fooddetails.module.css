@@ -1,0 +1,17 @@
+.recipeCard {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  color: white;
+}
+.recipeImage {
+  width: 100%;
+  border-radius: 10px;
+}
+.recipeDetails span {
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 1.2em;
+}

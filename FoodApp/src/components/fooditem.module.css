@@ -1,0 +1,42 @@
+.itemContainer {
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  transition: transform 0.3s ease-out;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+.itemContainer:hover {
+  transform: scale(1.1);
+}
+.title {
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(58, 47, 32);
+}
+.itemImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.itemButton {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.itemButton:hover {
+  background-color: #ff9900;
+  transform: scale(1.1);
+}
