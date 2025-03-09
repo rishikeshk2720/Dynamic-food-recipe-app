@@ -1,4 +1,3 @@
-import { use } from "react";
 import { useEffect, useState } from "react";
 import styles from "./fooddetails.module.css";
 import ItemList from "./ItemList";
@@ -7,7 +6,7 @@ export default function FoodDetails({ foodId }) {
   const [food, setFood] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const URL = `https://api.spoonacular.com/recipes/${foodId}/information`;
-  const API_KEY = "9394b61203e54fa9ab3240f102a4917a";
+  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
   useEffect(() => {
     async function fetchFood() {
